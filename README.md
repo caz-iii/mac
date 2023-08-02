@@ -52,8 +52,3 @@ chmod +x install.sh
 ```bash
 ./install.sh
 ```
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-pending
