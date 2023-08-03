@@ -1,15 +1,18 @@
+# SKHD
+## alt = opt
+
 # Apps
-ctrl + alt - b : open -n /Applications/Brave\ Browser.app --args --new-window
-ctrl + alt - i : open -a "System Preferences.app"
-ctrl + alt - e : open -a "Finder.app"
-ctrl + alt - c : open -a "Calculator.app"
-ctrl + alt - m : open -a "Messages.app"
-cmd - return : open -n /Applications/iTerm.app --args --new-window
+alt - b : open -n /Applications/Brave\ Browser.app --args --new-window
+alt - i : open -a "System Preferences.app"
+alt - e : open -a "Finder.app"
+alt - c : open -a "Calculator.app"
+alt - m : open -a "Messages.app"
+alt - return : open -n /Applications/iTerm.app --args --new-window
 
 # Scripts
-ctrl + alt - d : bash ~/bash/dashboard.sh
-ctrl + alt - p : bash ~/bash/finance.sh
-ctrl + alt - t : bash ~/bash/timesheets.sh
+alt - d : bash ~/bash/dashboard.sh
+alt - p : bash ~/bash/finance.sh
+alt - t : bash ~/bash/timesheets.sh
 
 # Yabai
 
