@@ -1,0 +1,11 @@
+# Apps
+ctrl + alt - b : open -n /Applications/Brave\ Browser.app --args --new-window
+ctrl + alt - i : open -a "System Preferences.app"
+ctrl + alt - e : open -a "Finder.app"
+ctrl + alt - c : open -a "Calculator.app"
+cmd - return : open -n /Applications/iTerm.app --args --new-window
+
+# Scripts
+ctrl + alt - d : bash ~/bash/dashboard.sh
+ctrl + alt - p : bash ~/bash/finance.sh
+ctrl + alt - t : bash ~/bash/timesheets.sh
