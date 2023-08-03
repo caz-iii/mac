@@ -8,5 +8,7 @@ yabai -m config mouse_modifier alt
 yabai -m mouse_drop_action swap
 
 # disable specific apps
-yabai -m rule --add app="^System Settings$" manage=off
+yabai -m rule --add label="System Preferences" app="^System Preferences$" title=".*" manage=off
 yabai -m rule --add app="^Calculator$" manage=off
+
+yabai -m signal --add event=window_created action='yabai -m query --windows --window $YABAI_WINDOW_ID | jq -er ".resizable == 0 and .floating == 0" && yabai -m window $YABAI_WINDOW_ID --toggle float'
