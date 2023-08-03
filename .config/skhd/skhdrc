@@ -9,3 +9,34 @@ cmd - return : open -n /Applications/iTerm.app --args --new-window
 ctrl + alt - d : bash ~/bash/dashboard.sh
 ctrl + alt - p : bash ~/bash/finance.sh
 ctrl + alt - t : bash ~/bash/timesheets.sh
+
+# Yabai
+
+## Float
+shift + alt - up : yabai -m window --toggle float --grid 4:4:1:1:2:2
+
+## Focus
+cmd - h : yabai -m window --focus $(yabai -m query --windows --space | jq 'sort_by(.id) | .[(to_entries | .[] | select(.value."has-focus") | .key + 1) % length] | .id')
+cmd - l : yabai -m window --focus $(yabai -m query --windows --space | jq 'sort_by(.id) | .[(to_entries | .[] | select(.value."has-focus") | .key - 1) % length] | .id')
+
+## Resize
+ctrl + cmd - h : yabai -m window --resize left:-20:0 ; yabai -m window --resize right:-20:0
+ctrl + cmd - l : yabai -m window --resize right:20:0 ; yabai -m window --resize left:20:0
+shift + alt - r : yabai -m space --balance
+
+## Move
+ctrl + alt - j : yabai -m window --swap south
+ctrl + alt - k : yabai -m window --swap north
+ctrl + alt - h : yabai -m window --swap west
+ctrl + alt - l : yabai -m window --swap east
+
+## Move to Workspace
+shift + alt - 1 : yabai -m window --space 1
+shift + alt - 2 : yabai -m window --space 2
+shift + alt - 3 : yabai -m window --space 3
+shift + alt - 4 : yabai -m window --space 4
+shift + alt - 5 : yabai -m window --space 5
+shift + alt - 6 : yabai -m window --space 6
+shift + alt - 7 : yabai -m window --space 7
+shift + alt - 8 : yabai -m window --space 8
+shift + alt - 9 : yabai -m window --space 9

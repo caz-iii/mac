@@ -8,15 +8,13 @@
   <h2 align="center">My MacOS Dotfiles</h2>
 
   <p align="center">
-    Configs for Mac OS, yabai, skhd, and iTerm2.
+    My configs for yabai, skhd, and iTerm2.
     <br />
   </p>
 </div>
 
 <!-- ABOUT -->
 ## About
-
-![](images/screenshot.png)
 
 This repo is to serve as a backup to myself (or anyone interested) of my configurations for Mac OS.
 
@@ -38,7 +36,7 @@ Apple Mac device.
 
 2. Auto deploy
 
-The `install.sh` script will take care of updating the system and installing programs. 
+The `install.sh` script will take care of updating the system and installing apps. 
 
 ```bash
 cd mac
