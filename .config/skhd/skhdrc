@@ -3,6 +3,7 @@ ctrl + alt - b : open -n /Applications/Brave\ Browser.app --args --new-window
 ctrl + alt - i : open -a "System Preferences.app"
 ctrl + alt - e : open -a "Finder.app"
 ctrl + alt - c : open -a "Calculator.app"
+ctrl + alt - m : open -a "Messages.app"
 cmd - return : open -n /Applications/iTerm.app --args --new-window
 
 # Scripts
@@ -25,10 +26,18 @@ ctrl + cmd - l : yabai -m window --resize right:20:0 ; yabai -m window --resize 
 shift + alt - r : yabai -m space --balance
 
 ## Move
+
+### Swap
 ctrl + alt - j : yabai -m window --swap south
 ctrl + alt - k : yabai -m window --swap north
 ctrl + alt - h : yabai -m window --swap west
 ctrl + alt - l : yabai -m window --swap east
+
+### Spilt
+shift + alt - j : yabai -m window --warp south
+shift + alt - k : yabai -m window --warp north
+shift + alt - h : yabai -m window --warp west
+shift + alt - l : yabai -m window --warp east
 
 ## Move to Workspace
 shift + alt - 1 : yabai -m window --space 1
