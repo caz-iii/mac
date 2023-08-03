@@ -5,11 +5,10 @@
 <div align="center">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
 
-  <h2 align="center">My MacOS Dotfiles<l/h2>
+  <h2 align="center">My MacOS Dotfiles</h2>
 
   <p align="center">
     Configs for Mac OS, yabai, skhd, and iTerm2.
-    <br />
     <br />
   </p>
 </div>
